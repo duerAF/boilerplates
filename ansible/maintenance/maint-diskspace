@@ -10,7 +10,7 @@
       register: disk_usage
     # - name: send discord message when disk space is over 80%
     #   uri:
-    #     url: "your-webhook"
+    #     url: "https://discord.com/api/webhooks/1148249881052459058/mUprXnzL5RJMvKp1nXiiRIctPPT5cxATtZcleDW1aSJ3b3odRJVLBQ6z3H7th_C8x74G"
     #     method: POST
     #     body_format: json
     #     body: '{"content": "Disk space on {{ inventory_hostname }} is above 80%!"}'
